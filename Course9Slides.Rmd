@@ -1,0 +1,60 @@
+---
+title       : Why you should use my Shiny App
+subtitle    : Course 9 Project
+author      : drtgt94
+job         : 
+framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      # 
+widgets     : []            # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+knit        : slidify::knit2slides
+extwidgets  : {rCharts: libraries/nvd3}
+---
+## It helps you understand the iris dataset
+
+When you first start using R in the Coursera Data Science specialization series of classes
+you are asked to use some of the datasets in the datasets package.
+
+1. These datasets are new to you and you don't have any perspective as to what is in them
+2. You don't know R well enough to pull the data out of the datasets to view them
+3. The graphing class comes later in the series and so you can't visualize what is in the datasets
+4. It has an interactive rChart in it!
+
+--- 
+
+## Datasets are new to you and you don't know R 
+## (1 & 2)
+
+When you first are exposed to the datasets, the teacher may ask you to str the dataset.  As demonstrated in the following code.   
+```{r strExample, echo=TRUE}
+str(iris)
+```
+
+This is not great.  Because you haven't used R much, it mostly looks like a bunch of garbled text.
+
+---
+
+## Graphing comes later (3)
+
+You don't start graphing until the 4th course in the series.  Then you will build a graph like this...  
+
+```{r quickPlot, echo=TRUE, fig.height=4.5}
+plot(PetalLength ~ PetalWidth, data = iris)
+```
+
+NOT super informative.  You can't even hover over a point to see what the value is.  
+
+---
+
+## There is an interactive rChart in my App (4)
+
+If you didn't notice the interactive chart, go back and hover over a point.  
+
+## It is cool  
+
+
+Not only can you dynamically select what is displayed, you can hover and get the values.  Use my Shiny App!  
+
+## Thank you  
+
